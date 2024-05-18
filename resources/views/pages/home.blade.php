@@ -44,7 +44,7 @@
 </div>
 <div class="heder">
     <div class="title competition mb-4 d-flex justify-content-evenly rounded-pill">
-        <h4> COMPETITION</h4>
+        <h4> COMPETIT</h4>
         <button class="btn btn-primer">View More </button>
     </div>
     <div class="card cardcustom" style="width: 270px;">
