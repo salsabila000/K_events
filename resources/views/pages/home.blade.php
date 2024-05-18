@@ -15,7 +15,7 @@
             <div class="card-body ms-3">
             <p class="card-text ">October 2024</p>
             <h5 class="card-title">Fullsun Love Date</h5>
-            <p class="btn btn-second">10 Oct 2024</p>
+            <p class="btn btn-second">10 Oct 20</p>
             <p><b>200K</b></p>
             <button class="btn btn-primer my-5">View More </button>
             </div>
