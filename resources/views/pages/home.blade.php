@@ -4,7 +4,7 @@
 @section('content')
 <div class="heder">
     <div class="title upcoming mb-4">
-        <h2>UPCOMING EVENT</h2>
+        <h2>UPCOMING EVE</h2>
     </div>
     <div class="card cardcustom mb-3" style="width: 540px; ">
         <div class="d-flex">
@@ -13,7 +13,7 @@
         </div>
         <div class="col-md-8 mt-5">
             <div class="card-body ms-3">
-            <p class="card-text ">October 2024</p>
+            <p class="card-text ">Octobe 2024</p>
             <h5 class="card-title">Fullsun Love Date</h5>
             <p class="btn btn-second">10 Oct 20</p>
             <p><b>200K</b></p>
