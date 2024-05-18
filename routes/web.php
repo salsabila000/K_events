@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
+ 
 
 
 route::prefix('admin')
@@ -31,4 +31,13 @@ Route::prefix('user')->group(function () {
     Route::get('detail', [App\Http\Controllers\HomeController::class, 'eventdetail'])->name('detail_events'); 
 
     Route::get('login-user', [App\Http\Controllers\HomeController::class, 'sign_in'])->name('login');
+
+    Route::get('faq', [App\Http\Controllers\HomeController::class, 'faq'])->name('faq-page');
+
+    Route::get('history', [App\Http\Controllers\HomeController::class, 'history'])->name('history-page');
+
+    Route::get('register', [App\Http\Controllers\HomeController::class, 'register'])->name('daftar');
+
+
+
 }); 

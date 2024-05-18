@@ -16,9 +16,28 @@ class HomeController extends Controller
         return View('pages/event_detail');
     }
 
-    function sign_in(request $request)  {
+    public function sign_in(request $request)  {
 
         return View('pages/login');
         
     }
+    public function faq(request $request)  {
+
+        return View('pages/faq');
+        
+    }
+    public function history(request $request)  {
+
+        return View('pages/history');
+        
+    }
+    public function register(request $request)  {
+
+        return View('pages/register');
+        
+    }
+
+ 
+    
+
 }
