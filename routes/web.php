@@ -38,6 +38,9 @@ Route::prefix('user')->group(function () {
 
     Route::get('register', [App\Http\Controllers\HomeController::class, 'register'])->name('daftar');
 
+    Route::get('viewhome', [App\Http\Controllers\HomeController::class, 'viewhome'])->name('more');
+
+
 
 
 }); 

@@ -12,7 +12,38 @@
   background: white;
 } */
 
-/* detail event */
+/*view more */
+.btn-event{
+  margin-top: 60px;
+  margin-left: 20px;
+}
+.btn-masuk{
+  color: #F25D9C;
+  outline-style: solid;
+  outline-color: #eaeaea;
+  border-radius: 50px;
+
+}
+.btn-masuk:hover{
+  color: white;
+  background-color: #F25D9C;
+ 
+}
+.btn-search{
+  margin-top: 60px;
+  margin-left: auto
+}
+.input-group form { /* Target the form within .input-group */
+  margin-left: auto; /* Push the form to the right */
+  margin-inline-start: auto;
+}
+
+/* Improved form spacing (optional) */
+.form-control {
+  margin-right: 10px; 
+}
+
+/* detail event  */
 
 ::selection{
   background: rgba(23,162,184,0.3);
