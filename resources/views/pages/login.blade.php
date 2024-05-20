@@ -7,7 +7,7 @@
   <div class="container">
     <div class="back-link">
         <a href="{{ route('home')}}" class="back-link"> &lt; Back to Dashboard</a>
-        <div class="logo">
+        <div class="logo-login">
             <img src="/frontend/images/image 102.png" width="40px" height="40px">
             <p> K-EVENTS </p>
         </div>
@@ -16,15 +16,15 @@
     </div>
     <div class="direct">Enter your email and password to login
     </div>
-    <div class="content">
+    <div class="content-login">
       <form action="POST">
         <div class="user-details">
-          <div class="input-box">
+          <div class="input-box-login">
             <span class="details">Email</span>
             <input type="text" required>
           </div>
           
-          <div class="input-box">
+          <div class="input-box-login">
             <span class="details">Password</span>
             <input type="password" required>
           </div>
@@ -33,10 +33,10 @@
 
         <div class="btn-userlogin">      
           <div class="button">
-            <input type="submit" value="Sign Up">
+            <input type="submit" value="Sign In">
           </div>
           <div class="button">
-            <a href="{{ route('daftar')}}">Create New Account </a>
+            <a href="{{ route('daftar')}}" style="font-size: 15px;">Create New Account </a>
           </div>
 
         </div>

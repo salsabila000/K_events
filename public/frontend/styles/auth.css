@@ -33,15 +33,16 @@ body{
     justify-content: space-between;
     font-weight: 500;
 }
-.container .logo {
+.container .logo-login {
     display: flex;
     align-items: center; 
     font-size: 12px;
+    margin-top: -10px;
 }
-.container .logo p{
+.container .logo-login p{
     margin-left: 10px;
-    color: black;
-    font-weight: 500;
+    color: #F25D9C;
+    font-weight: bold;
     font-size: 15px;
     margin-top: 20px;
 }
@@ -80,15 +81,15 @@ body{
   justify-content: space-between;
   margin: 20px 0 12px 0;
 } */
-form .user-details .input-box{
+form .user-details .input-box-login{
   margin-bottom: 15px;
 }
-form .input-box span.details{
+form .input-box-login span.details{
   display: block;
   font-weight: 500;
   margin-bottom: 5px;
 }
-.user-details .input-box input{
+.user-details .input-box-login input{
   height: 35px;
   width: 100%;
   outline: none;
@@ -98,8 +99,8 @@ form .input-box span.details{
   border: 1px solid #e1e1e1;
   border-radius: 50px;
 }
-.user-details .input-box input:focus,
-.user-details .input-box input:valid{
+.user-details .input-box-login input:focus,
+.user-details .input-box-login input:valid{
   border-color: #F25D9C;
 }
  form .category{
@@ -211,7 +212,7 @@ form .user-details .input-box{
     margin-left: 10px;
     margin-top: 10px;
     color: #F25D9C;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 15px;
 }
 .container-regis .title{
