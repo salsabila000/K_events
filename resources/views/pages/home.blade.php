@@ -2,6 +2,7 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="container mt-5 d-flex justify-content-evenly flex-wrap ">
 <div class="heder">
             <div class="title upcoming mb-4">
                 <h3>Upcoming Event</h3>
@@ -240,5 +241,6 @@
 
             </div>
         </div>
+</div>
     
 @endsection

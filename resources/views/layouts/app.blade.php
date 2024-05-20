@@ -43,11 +43,11 @@
         </div>
     </nav>
 
-  <div class="container mt-5 d-flex justify-content-evenly flex-wrap ">
+  
 
   @yield('content')
         
-  </div>
+
 
      
     

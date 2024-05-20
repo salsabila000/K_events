@@ -1,6 +1,8 @@
-@extends('layouts.view-more')
+@extends('layouts.app')
 
 @section('content')
+
+<div class="kontener" style="margin-top: -50px;">
 <div class="container mt-5 d-flex flex-wrap justify-content-between">
         <div class="d-flex"> 
             <div class="btn-event mb-4 d-flex rounded-pill">
@@ -107,5 +109,6 @@
 
             </div>
         </div>
+</div>
 
 @endsection
