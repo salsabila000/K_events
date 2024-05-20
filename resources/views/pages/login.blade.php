@@ -6,7 +6,7 @@
     
   <div class="container">
     <div class="back-link">
-        <a href="#" class="back-link"> &lt; Back to Dashboard</a>
+        <a href="{{ route('home')}}" class="back-link"> &lt; Back to Dashboard</a>
         <div class="logo">
             <img src="/frontend/images/image 102.png" width="40px" height="40px">
             <p> K-EVENTS </p>
@@ -36,7 +36,7 @@
             <input type="submit" value="Sign Up">
           </div>
           <div class="button">
-            <a href="#">Create New Account </a>
+            <a href="{{ route('daftar')}}">Create New Account </a>
           </div>
 
         </div>
