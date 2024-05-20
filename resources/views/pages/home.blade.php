@@ -4,7 +4,7 @@
 @section('content')
 <div class="heder">
             <div class="title upcoming mb-4">
-                <h3>Upcoming Event</h3>
+                <h3>Upcoming Evento</h3>
 
             </div>
             <div class="card cardcustom mb-3" style="width: 540px; ">
