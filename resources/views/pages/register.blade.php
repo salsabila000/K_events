@@ -4,7 +4,7 @@
 {{-- untuk memanggil isi dari yeild  --}}
 @section('content')
     
-  <div class="container">
+  <div class="container-regis">
     <div class="back-link">
         <a href="{{ route('home')}}" class="back-link"> &lt; Back to Dashboard</a>
         <div class="logo">
