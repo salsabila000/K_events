@@ -40,6 +40,10 @@ Route::prefix('user')->group(function () {
 
     Route::get('viewhome', [App\Http\Controllers\HomeController::class, 'viewhome'])->name('more');
 
+    Route::get('viewhomenor', [App\Http\Controllers\HomeController::class, 'viewhomenor'])->name('noraebang');
+
+    Route::get('viewhomebday', [App\Http\Controllers\HomeController::class, 'viewhomebday'])->name('birthday');
+
 
 
 
