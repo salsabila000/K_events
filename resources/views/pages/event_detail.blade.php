@@ -4,8 +4,8 @@
   <div class="container-fluid">
     <div class="bungkus ">
       <div class="box">
-        <h4 style="color: #73B0F8;">NORAEBANG PARTY "SPECIAL PCD SESSION"</h4>
-        <p  style="margin-bottom:10px; color: grey;"> MALL KOTA KASABLANKA</p>
+        <h4 style="color: #73B0F8;">Noraebang Party "Special PCD Session"</h4>
+        <p  style="margin-bottom:10px; color: grey;"> Mall Kota Kasablanka</p>
         <img src="img/image103.png" width="550px" height="300px" >
         <div class="content">
           <div class="info">
