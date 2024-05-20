@@ -44,6 +44,9 @@ Route::prefix('user')->group(function () {
 
     Route::get('viewhomebday', [App\Http\Controllers\HomeController::class, 'viewhomebday'])->name('birthday');
 
+    Route::get('viewhomecompt', [App\Http\Controllers\HomeController::class, 'viewhomecompt'])->name('competition');
+
+
 
 
 

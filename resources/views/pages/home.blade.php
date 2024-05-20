@@ -1,4 +1,3 @@
-
 @extends('layouts.app')
 
 @section('content')
@@ -49,7 +48,7 @@
         <div class="heder">
             <div class="title competition mb-4 d-flex justify-content-evenly rounded-pill">
                 <h5 style="margin: auto;"> Competition</h5>
-                <button class="btn btn-primer">View More </button>
+                <a class="btn btn-primer" type="submit" href="{{ route('competition')}}">View more</a>
             </div>
             <div class="card cardcustom" style="width: 270px;">
                 <img src="/frontend/images/compt1.png" class="card-img-top " style="width: 270px; margin-top: -5px;" alt="...">
@@ -79,8 +78,7 @@
                     <p>Acara karaoke bersama fanbase kesukaan kalian</p>
                 </div>
                 <div class="btn-view-more">
-
-                    <button class="btn btn-primer">View More </button>
+                <a class="btn btn-primer" type="submit" href="{{ route('noraebang')}}">View more</a>
                 </div>
             </div>
 
@@ -167,8 +165,7 @@
                     <p>Rayakan ulang tahun idolamu bersama fanbase</p>
                 </div>
                 <div class="btn-view-more">
-
-                    <button class="btn btn-primer">View More </button>
+                <a class="btn btn-primer" type="submit" href="{{ route('birthday')}}">View more</a>
                 </div>
             </div>
 
