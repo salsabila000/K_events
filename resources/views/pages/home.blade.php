@@ -4,7 +4,7 @@
 @section('content')
 <div class="heder">
             <div class="title upcoming mb-4">
-                <h3>Upcoming Evento</h3>
+                <h3>Upcoming Event</h3>
 
             </div>
             <div class="card cardcustom mb-3" style="width: 540px; ">
@@ -18,7 +18,10 @@
                     <p class="card-text ">October 2024</p>
                     <h5 class="card-title">Fullsun Love Date</h5>
                     <p class="btn btn-second">10 Oct 2024</p>
-                    <p class="ms-2 fw-bold mt-1">IDR 150.000</p>
+                    <div class="d-flex">
+                    <p><img src="/frontend/images/tickets.png" alt="">
+                    <p class="ms-2 fw-bold mt-1 my-auto">150.000</p>
+                    </div>
                     <button class="btn btn-primer my-5">View More </button>
                     </div>
                 </div>
@@ -35,7 +38,8 @@
                 <div class="card-body">
                 <div class="card-text d-flex justify-content-between">
                     <p class="btn btn-second" >22 Sept 2024</p>
-                    <p class="ms-2 fw-bold mt-1 my-auto">IDR 75.000</p>
+                    <p><img src="/frontend/images/tickets.png" alt="">
+                    <p class="ms-2 fw-bold mt-1 my-auto">75.000</p>
                 </div>
                 <h5 class="card-title">Noraebang Karaoke Party SVT Anniversary"</h5>
                 </div>
@@ -51,7 +55,8 @@
                 <div class="card-body">
                     <div class="card-text d-flex justify-content-between" style="margin-top: -10px;">
                         <p class="btn btn-second" >28 Sept 2024</p>
-                        <p class="ms-2 fw-bold mt-1 my-auto">IDR 50.000</p>
+                        <p><img src="/frontend/images/tickets.png" alt="">
+                        <p class="ms-2 fw-bold mt-1 my-auto">50.000</p>
                     </div>
                     <h5 class="card-title">KPOP Party Dance Competition</h5>
                     </div>
@@ -87,7 +92,7 @@
                                 <p class="btn btn-second">2 Sept 2024</p>
                                 <div class="card-tiket d-flex justify-content-between ">
                                     <p><img src="/frontend/images/tickets.png" alt="">
-                                    <p class="ms-2 fw-bold mt-1 my-auto">IDR 70.000</p>
+                                    <p class="ms-2 fw-bold mt-1 my-auto">70.000</p>
                                 </div>
                            
                             </div>
@@ -103,7 +108,7 @@
                                 <p class="btn btn-second">9 Sept 2024</p>
                                 <div class="card-tiket d-flex justify-content-between ">
                                     <p><img src="/frontend/images/tickets.png" alt="">
-                                    <p class="ms-2 fw-bold mt-1">IDR 75.000</p>
+                                    <p class="ms-2 fw-bold mt-1"> 75.000</p>
                                 </div>
                            
                             </div>
@@ -119,7 +124,7 @@
                                 <p class="btn btn-second">11 Sept 2024</p>
                                 <div class="card-tiket d-flex justify-content-between ">
                                     <p><img src="/frontend/images/tickets.png" alt="">
-                                    <p class="ms-2 fw-bold mt-1">IDR 80.000</p>
+                                    <p class="ms-2 fw-bold mt-1"> 80.000</p>
                                 </div>
                            
                             </div>
@@ -135,7 +140,7 @@
                                 <p class="btn btn-second">2 Oct 2024</p>
                                 <div class="card-tiket d-flex justify-content-between ">
                                     <p><img src="/frontend/images/tickets.png" alt="">
-                                    <p class="ms-2 fw-bolder mt-1">IDR 100.000</p>
+                                    <p class="ms-2 fw-bolder mt-1"> 100.000</p>
                                 </div>
                            
                             </div>
@@ -171,11 +176,11 @@
                     <div class="card  cardcustom" style="width: 270px;">
                         <img src="/frontend/images/image 91.png" class="card-img-top" style="width: 100%; margin-top: -10px;" alt="...">
                         <div class="card-body">
-                            <div class="card-text d-flex justify-content-between">
+                            <div class="card-text d-flex justify-content-between" style="margin-top: -5px">
                                 <p class="btn btn-second">6 April 2024</p>
                                 <div class="card-tiket d-flex justify-content-between" style="margin-top: -5px;">
                                     <p><img src="/frontend/images/tickets.png" alt="">
-                                    <p class="ms-2 fw-bold mt-1">IDR 150.000</p>
+                                    <p class="ms-2 fw-bold mt-1"> 150.000</p>
                                 </div>
                            
                             </div>
@@ -191,7 +196,7 @@
                                 <p class="btn btn-second">28 April 2024</p>
                                 <div class="card-tiket d-flex justify-content-between ">
                                     <p><img src="/frontend/images/tickets.png" alt="">
-                                    <p class="ms-2 fw-bold mt-1">IDR 100.000</p>
+                                    <p class="ms-2 fw-bold mt-1"> 100.000</p>
                                 </div>
                            
                             </div>
@@ -207,7 +212,7 @@
                                 <p class="btn btn-second">22 Sept 2024</p>
                                 <div class="card-tiket d-flex justify-content-between ">
                                     <p><img src="/frontend/images/tickets.png" alt="">
-                                    <p class="ms-2 fw-bold mt-1">IDR 145.000</p>
+                                    <p class="ms-2 fw-bold mt-1"> 145.000</p>
                                 </div>
                            
                             </div>
@@ -222,7 +227,8 @@
                             <div class="card-text d-flex justify-content-between" style="margin-top: -5px;">
                                 <p class="btn btn-second">23 Sept 2024</p>
                                 <div class="card-tiket d-flex justify-content-between ">
-                                    <p class="ms-2 fw-bold mt-1">IDR 145.000</p>
+                                <p><img src="/frontend/images/tickets.png" alt="">
+                                <p class="ms-2 fw-bold mt-1"> 145.000</p>
                                 </div>
                            
                             </div>
