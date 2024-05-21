@@ -21,7 +21,7 @@
         <div class="user-details">
           <div class="input-box-login">
             <span class="details">Email</span>
-            <input type="text" required>
+            <input type="email" required>
           </div>
           
           <div class="input-box-login">

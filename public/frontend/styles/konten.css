@@ -22,7 +22,7 @@ html,body{
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin-top: 200px;
+  margin-top: -100px;
 }
 .bungkus .box{
   background: #fff;
@@ -256,6 +256,19 @@ margin-left: 20px;
   color: white;
   border: 2px solid #F25D9C ;
 
+}
+
+.modal-footer .btn-primary {
+  border-radius: 30px;
+  background-color: #F25D9C;
+  border-color: #F25D9C;
+}
+
+.modal-footer .btn-secondary {
+  background-color:white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 30px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) { /* Tablet */

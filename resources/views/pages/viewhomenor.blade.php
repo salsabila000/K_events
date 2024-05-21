@@ -109,7 +109,7 @@
                 </div>
                 <div class="norebang-content mb-4">
                     <div class="card  cardcustom" style="width: 270px;">
-                        <img src="/frontend/images/vertical.png" class="card-img-top" alt="...">
+                    <a href="{{ route('event')}}"><img src="/frontend/images/vertical.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <div class="card-text d-flex justify-content-between">
                                 <p class="btn btn-second" style="margin-top: -10px;">30 Sept 2024</p>

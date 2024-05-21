@@ -46,7 +46,7 @@ Route::prefix('user')->group(function () {
 
     Route::get('viewhomecompt', [App\Http\Controllers\HomeController::class, 'viewhomecompt'])->name('competition');
     
-    Route::get('viewhomecompt', [App\Http\Controllers\HomeController::class, 'konten'])->name('event');
+    Route::get('konten', [App\Http\Controllers\HomeController::class, 'konten'])->name('event');
 
 
 
