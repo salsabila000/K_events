@@ -4,8 +4,8 @@
 <div class="container-fluid">
   <div class="bungkus mt">
     <div class="box">
-      <h4 style="color: #73B0F8;">Noraebang Party "Special PCD Session"</h4>
-      <p  style="margin-bottom:10px; color: grey;"> Mall Kota Kasablanka</p>
+      <p class="fw-bold fs-4"style="color: navy;">Noraebang Party "Special PCD Session"</p>
+      <p  style="margin-top: -5px; color: grey; font-size: 20px;"> Mall Kota Kasablanka</p>
       <img src="/frontend/images/image103.png" width="550px" height="300px" >
       <div class="content">
         <div class="info">
@@ -14,7 +14,7 @@
             <div class="desc" style="margin-top: 10px;">
             <p style="margin-bottom: 10px;"> Noraebang adalah skaraoke ala Korea Selatan yang biasanya dilakukan secara massal.  Noraebang menjadi ajang untuk berkumpul dan bernyanyi bersama teman satu fandom dan sesama K-Popers lainnya. Yuk Chingu kita seru-seruan Karokean lagu- lagu
            k-pop hits sambil joget bareng </p> 
-           <p>Tanggal       : 11 September 2023</p> 
+           <p>Tanggal       : 30 September 2023</p> 
            <p>Waktu         : 9.00 - selesai</p>
           <p>Lokasi        : Mall Kota Kasablanka</p>
           </div>

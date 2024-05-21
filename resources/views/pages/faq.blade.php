@@ -3,14 +3,8 @@
 @section('content')
   
   <div class="container">
-        <div class="back-link">
-            <a href="#" class="back-link"> &lt; Back to Dashboard</a>
-            <div class="logo">
-                <img src="/frontend/images/image 102.png" width="40px" height="40px">
-                <p> K-EVENTS </p>
-            </div>
-        </div>
-        <div class="title"><b>FAQ</b>
+  <div class="bungkus-faq">
+        <div class="title-faq"><b>FAQ</b>
         </div>
         <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
@@ -74,7 +68,7 @@
                 </div>
               </div>
           </div>
-       
+        </div>
         </div>
 
 @endsection

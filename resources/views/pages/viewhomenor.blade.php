@@ -115,11 +115,11 @@
                                 <p class="btn btn-second" style="margin-top: -10px;">30 Sept 2024</p>
                                 <div class="card-tiket d-flex justify-content-between" style="margin-top: -5px;">
                                     <p><img src="/frontend/images/tickets.png" alt="">
-                                    <p class="ms-2 fw-bold mt-1"> 75.000</p>
+                                    <p class="ms-2 fw-bold mt-1 text-black"> 75.000</p>
                                 </div>
                            
                             </div>
-                            <h5 class="card-title">Noraebang Party Special PCD Session</h5>
+                            <h5 class="card-title text-black">Noraebang Party Special PCD Session</h5>
                         </div>
                     </div>
                 </div>
