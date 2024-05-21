@@ -56,6 +56,12 @@ class HomeController extends Controller
         return View('pages/viewhomecompt');
         
     }
+    public function konten(request $request)  {
+
+        return View('pages/konten');
+        
+    }
+
 
 
  
