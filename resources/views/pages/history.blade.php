@@ -1,44 +1,28 @@
 @extends('layouts.app')
 
 @section('content')
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-        *{
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-          font-family: 'Poppins', sans-serif;
-        }
-        .card {
-          margin-top: 50px;
-        }
-     
-        .card {
-            border: none; /* Hilangkan border bawaan card */
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Tambahkan box shadow */
-        }
-        .card-img-top {
-            height: 200px; /* Atur tinggi gambar sesuai kebutuhan */
-            object-fit: cover; /* Pastikan gambar menutupi area dengan baik */
-        }
-        .content-top p {
-          font-weight: 700;
-        }
-        .content-sisi-harga p {
-          color: grey;
-        }
-    </style>
-</head>
+
 <body>
-    <div class="container mt-5">
-      <div class="search-container">
-        <h3 class="mb-4">Riwayat Pesanan Tiket</h3>
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Cari pesanan...">
-          <button class="btn btn-primary" type="button">Cari</button>
+    <div class="container">
+    <h3 class="mt-3">Riwayat Pesanan Tiket</h3>
+        <div class="bungkusan d-flex flex-wrap justify-content-start" >
+        <div class="all-tombol d-flex mb-50" > 
+            <div class="btn-event mb-4 d-flex rounded-pill">
+                <button class="btn btn-masuk ">Semua</button>
+            </div>
+            <div class="btn-event mb-4 d-flex rounded-pill">
+            <a class="btn btn-masuk" type="submit" href="{{ route('noraebang')}}">Berlangsung</a>
+            </div>
+            <div class="btn-event mb-4 d-flex rounded-pill">
+            <a class="btn btn-masuk" type="submit" href="{{ route('birthday')}}">Berakhir</a>
+            </div>
+        </div>
+        <div class="btn-search mb-4 d-flex rounded-pill"> 
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary" type="submit">Search</button>
         </div>
       </div>
-        <div class="row">
+        <div class=" konten-history row">
             <div class="col-md-4">
                 <div class="card">
                   <div class="card-img-relative">
@@ -96,6 +80,7 @@
                                                <p>Mall Kota Kasablanka</p>
                                                <p>21 September 2024 </p>
                                                <p>10:00 - selesai</p>
+                                               <a href="">Dowload Tiket</a>
                                               </div>
                                            </div>
                                         </div>
