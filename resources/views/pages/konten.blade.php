@@ -435,7 +435,7 @@
                 <p style="margin-top: 10px;">Pembayaran berhasil</p>
               </div>
               <div class="payment-success-title">
-                <p>Informasi mengenai tiket dan detail order akan dikirimkan melalui email</p>
+                <p>Informasi mengenai tiket dan detail order dapat dilihat pada menu history</p>
               </div>
                 <div class="payment-success-desc"> 
                   <p>Jika mengalami kesulitan mengenai pesanan Anda, harap hubungi:</p>
