@@ -361,3 +361,104 @@ margin-left: 20px;
 .content-sisi-harga p {
   color: grey;
 }
+
+
+/* Main Ticket Style */
+.ticketContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ticket {
+  background-color: white;
+  color: darkslategray;
+  border-radius: 12px;
+  /* Added border and shadow */
+  border: 1px solid gray; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+/* Ticket Content */
+.ticketTitle{
+  padding: 12px 16px 4px;
+}
+.ticketTitle p{
+  font-weight: 700;
+  margin-left: 10px;
+  justify-content: center;
+  margin-top: 5px;
+  color: #F25D9C;
+ 
+}
+hr{
+  margin-top: -10px;
+  width: 100%;
+  border: 1px bold #efefef;
+}
+.ticketDetail{
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 4px 16px;
+  margin-top: 15px;
+}
+.ticketDetail .judul{
+  font-weight: 600;
+  font-size: 18px;
+}
+.ticketDetail .isi{
+  font-size: 15px;
+}
+
+.ticketSubDetail{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1rem;
+  padding: 12px 16px;
+}
+
+.ticketSubDetail .date{
+  margin-top: -20px;
+  color: navy;
+  font-weight: 500;
+}
+
+.ticketSubDetail-footer p{
+  color: grey;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+
+}
+.barcode{
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+/* Ticket Ripper */
+.ticketRip{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.circleLeft{
+  width: 12px;
+  height: 24px;
+  background-color: grey;
+  border-radius: 0 12px 12px 0;
+  background-color: transparent;
+}
+.ripLine{
+  width: 100%;
+  border-top: 3px solid grey;
+  border-top-style: dashed ;
+}
+.circleRight{
+  width: 12px;
+  height: 24px;
+  background-color: grey;
+  border-radius: 12px 0 0 12px;
+  background-color: transparent;
+}
