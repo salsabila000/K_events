@@ -36,6 +36,33 @@ class HomeController extends Controller
         return View('pages/register');
         
     }
+    public function viewhome(request $request)  {
+
+        return View('pages/viewhome');
+        
+    }
+    public function viewhomenor(request $request)  {
+
+        return View('pages/viewhomenor');
+        
+    }
+    public function viewhomebday(request $request)  {
+
+        return View('pages/viewhomebday');
+        
+    }
+    public function viewhomecompt(request $request)  {
+
+        return View('pages/viewhomecompt');
+        
+    }
+    public function konten(request $request)  {
+
+        return View('pages/konten');
+        
+    }
+
+
 
  
     

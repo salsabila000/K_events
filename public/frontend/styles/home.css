@@ -12,7 +12,38 @@
   background: white;
 } */
 
-/* detail event */
+/* view more */
+.btn-event{
+  margin-top: 60px;
+  margin-left: 20px;
+}
+.btn-masuk{
+  color: #F25D9C;
+  outline-style: solid;
+  outline-color: #eaeaea;
+  border-radius: 50px;
+
+}
+.btn-masuk:hover{
+  color: white;
+  background-color: #F25D9C;
+ 
+}
+.btn-search{
+  margin-top: 60px;
+  margin-left: auto
+}
+.input-group form { /* Target the form within .input-group */
+  margin-left: auto; /* Push the form to the right */
+  margin-inline-start: auto;
+}
+
+/* Improved form spacing (optional) */
+.form-control {
+  margin-right: 10px; 
+}
+
+/* detail event  */
 
 ::selection{
   background: rgba(23,162,184,0.3);
@@ -289,4 +320,145 @@ margin-left: 20px;
         flex-direction: column-reverse;
         }
 }
-/*color : F25D9C
+
+
+/* css faq */
+
+.bungkus-faq{
+  margin-top: 50px;
+}
+.title-faq{
+  color: #F25D9C;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* css history*/
+
+.bungkusan{
+  margin-top: -30px;
+  margin-left: -15px;
+}
+
+.konten-history{
+  margin-top: -30px;
+}
+.card {
+  margin-top: 50px;
+}
+
+.card {
+    border: none; /* Hilangkan border bawaan card */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Tambahkan box shadow */
+}
+.card-img-top {
+    height: 200px; /* Atur tinggi gambar sesuai kebutuhan */
+    object-fit: cover; /* Pastikan gambar menutupi area dengan baik */
+}
+.content-top p {
+  font-weight: 700;
+}
+.content-sisi-harga p {
+  color: grey;
+}
+
+
+/* Main Ticket Style */
+.ticketContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ticket {
+  background-color: white;
+  color: darkslategray;
+  border-radius: 12px;
+  /* Added border and shadow */
+  border: 1px solid gray; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+/* Ticket Content */
+.ticketTitle{
+  padding: 12px 16px 4px;
+}
+.ticketTitle p{
+  font-weight: 700;
+  margin-left: 10px;
+  justify-content: center;
+  margin-top: 5px;
+  color: #F25D9C;
+ 
+}
+hr{
+  margin-top: -10px;
+  width: 100%;
+  border: 1px bold #efefef;
+}
+.ticketDetail{
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 4px 16px;
+  margin-top: 15px;
+}
+.ticketDetail .judul{
+  font-weight: 600;
+  font-size: 18px;
+}
+.ticketDetail .isi{
+  font-size: 15px;
+}
+
+.ticketSubDetail{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1rem;
+  padding: 12px 16px;
+}
+
+.ticketSubDetail .date{
+  margin-top: -20px;
+  color: navy;
+  font-weight: 500;
+}
+
+.ticketSubDetail-footer p{
+  color: grey;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+
+}
+.barcode{
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+/* Ticket Ripper */
+.ticketRip{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.circleLeft{
+  width: 12px;
+  height: 24px;
+  background-color: grey;
+  border-radius: 0 12px 12px 0;
+  background-color: transparent;
+}
+.ripLine{
+  width: 100%;
+  border-top: 3px solid grey;
+  border-top-style: dashed ;
+}
+.circleRight{
+  width: 12px;
+  height: 24px;
+  background-color: grey;
+  border-radius: 12px 0 0 12px;
+  background-color: transparent;
+}

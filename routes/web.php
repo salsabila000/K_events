@@ -38,6 +38,18 @@ Route::prefix('user')->group(function () {
 
     Route::get('register', [App\Http\Controllers\HomeController::class, 'register'])->name('daftar');
 
+    Route::get('viewhome', [App\Http\Controllers\HomeController::class, 'viewhome'])->name('more');
+
+    Route::get('viewhomenor', [App\Http\Controllers\HomeController::class, 'viewhomenor'])->name('noraebang');
+
+    Route::get('viewhomebday', [App\Http\Controllers\HomeController::class, 'viewhomebday'])->name('birthday');
+
+    Route::get('viewhomecompt', [App\Http\Controllers\HomeController::class, 'viewhomecompt'])->name('competition');
+    
+    Route::get('konten', [App\Http\Controllers\HomeController::class, 'konten'])->name('event');
+
+
+
 
 
 }); 

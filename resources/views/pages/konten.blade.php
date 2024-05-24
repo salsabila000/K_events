@@ -1,20 +1,12 @@
-<!DOCTYPE html>
-<!-- Created By CodingNepal - www.codingnepalweb.com -->
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KONTEN</title>
-    <link rel="stylesheet" href="konten.css">
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-</head>
-<body>
-  <div class="container-fluid">
+@extends('layouts.kontenhead')
+
+@section('content')
+<div class="container-fluid">
   <div class="bungkus mt">
     <div class="box">
-      <h4 style="color: #73B0F8;">Noraebang Party "Special PCD Session"</h4>
-      <p  style="margin-bottom:10px; color: grey;"> Mall Kota Kasablanka</p>
-      <img src="img/image103.png" width="550px" height="300px" >
+      <p class="fw-bold fs-4"style="color: navy;">Noraebang Party "Special PCD Session"</p>
+      <p  style="margin-top: -5px; color: grey; font-size: 20px;"> Mall Kota Kasablanka</p>
+      <img src="/frontend/images/image103.png" width="550px" height="300px" >
       <div class="content">
         <div class="info">
            <p  style="margin-top: 20px; "><b>Deskripsi</b></p>
@@ -22,7 +14,7 @@
             <div class="desc" style="margin-top: 10px;">
             <p style="margin-bottom: 10px;"> Noraebang adalah skaraoke ala Korea Selatan yang biasanya dilakukan secara massal.  Noraebang menjadi ajang untuk berkumpul dan bernyanyi bersama teman satu fandom dan sesama K-Popers lainnya. Yuk Chingu kita seru-seruan Karokean lagu- lagu
            k-pop hits sambil joget bareng </p> 
-           <p>Tanggal       : 11 September 2023</p> 
+           <p>Tanggal       : 30 September 2023</p> 
            <p>Waktu         : 9.00 - selesai</p>
           <p>Lokasi        : Mall Kota Kasablanka</p>
           </div>
@@ -31,15 +23,15 @@
           <hr width="98%" size="2" color="#F25D9C" noshade>
           <div class="square">
             <div class="item">
-              <img src="img/image104.png" width="30px" height="30px" alt="Snack">
+              <img src="/frontend/images/image104.png" width="30px" height="30px" alt="Snack">
               <p>Snack & drink</p>
             </div>
             <div class="item">
-              <img src="img/image104.png" width="30px" height="30px" alt="Snack">
+              <img src="/frontend/images/image104.png" width="30px" height="30px" alt="Snack">
               <p>Freebies</p>
             </div>
             <div class="item">
-              <img src="img/image104.png" width="30px" height="30px" alt="Snack">
+              <img src="/frontend/images/image104.png" width="30px" height="30px" alt="Snack">
               <p>Special Guest</p>
             </div>
           </div>
@@ -97,7 +89,7 @@
               </div>
               <div class="input-box">
                 <span class="details">No Handphone</span>
-                <input type="email" required>
+                <input type="text" required>
               </div>
           </div>
         </form>
@@ -125,35 +117,35 @@
           <div class="form-check mb-2 gap-3 d-flex align-items-center">
             <input class="form-check-input" data-bs-toggle="modal" data-bs-target="#modal6" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
             <label class="form-check-label d-flex gap-3 align-items-center" for="exampleRadios1">
-              <img src="img/bri.png" alt="" width="60px" height="40px">   
+              <img src="/frontend/images/bri.png" alt="" width="60px" height="40px">   
               <p style="margin-top:10px;">BRI Virtual Account</p>
             </label>
           </div>
           <div class="form-check mb-2 gap-3 d-flex align-items-center">
             <input class="form-check-input" data-bs-toggle="modal" data-bs-target="#modal5" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
             <label class="form-check-label d-flex gap-3 align-items-center" for="exampleRadios2">
-              <img src="img/bni.png" alt="" width="60px" height="40px">    
+              <img src="/frontend/images/bni.png" alt="" width="60px" height="40px">    
               <p style="margin-top:10px;">BNI Virtual Account</p>        
             </label>
           </div>
           <div class="form-check mb-2 gap-3 d-flex align-items-center">
             <input class="form-check-input" data-bs-toggle="modal" data-bs-target="#modal4" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
             <label class="form-check-label d-flex gap-3 align-items-center" for="exampleRadios3">
-              <img src="img/mandiri.png" alt="" width="60px" height="40px">
+              <img src="/frontend/images/mandiri.png" alt="" width="60px" height="40px">
               <p style="margin-top:10px;">Mandiri Virtual Account</p>      
             </label>
           </div>
           <div class="form-check mb-2 gap-3 d-flex align-items-center">
             <input class="form-check-input" data-bs-toggle="modal" data-bs-target="#modal3" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
             <label class="form-check-label d-flex gap-3 align-items-center" for="exampleRadios3">
-              <img src="img/bca.png" alt="" width="60px" height="40px">
+              <img src="/frontend/images/bca.png" alt="" width="60px" height="40px">
               <p style="margin-top:10px;">BCA Virtual Account</p>  
             </label>
           </div>
           <div class="form-check mb-2 gap-3 d-flex align-items-center">
             <input class="form-check-input" data-bs-toggle="modal" data-bs-target="#modal2" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
             <label class="form-check-label d-flex gap-3 align-items-center" for="exampleRadios3">
-              <img src="img/qris.png" alt="" width="60px" height="40px">    
+              <img src="/frontend/images/qris.png" alt="" width="60px" height="40px">    
               <p style="margin-top:10px;">QRIS</p>
             </label>
           </div>
@@ -190,7 +182,7 @@
           </div>
           <div class="detail-order-middle"> 
             <label class="form-check-label d-flex gap-3 align-items-center" for="exampleRadios3">
-              <img src="img/qris.png" alt="" width="60px" height="40px" style="margin-left: 10px;">
+              <img src="/frontend/images/qris.png" alt="" width="60px" height="40px" style="margin-left: 10px;">
               <p style="margin-top: 15px;">QRIS</p>
             </label>
           </div>
@@ -199,7 +191,7 @@
             <p class="total-pembayaran">75.000</p> 
           </div>
           <div class="detail-order-final d-flex">
-            <img src="img/barcode.png" alt="" width="200px" height="200px" style="margin-left: 10px; margin-top: 10px;">
+            <img src="/frontend/images/barcode.png" alt="" width="200px" height="200px" style="margin-left: 10px; margin-top: 10px;">
             <div class="payment-instructions"> 
                 <p style="margin-left: 20px;">Instruksi Pembayaran:</p>
                 <ol> <div class="detail-order-final d-flex flex-column"> 
@@ -241,7 +233,7 @@
           </div>
           <div class="detail-order-middle"> 
             <label class="form-check-label d-flex gap-3 align-items-center" for="exampleRadios3">
-              <img src="img/bca.png" alt="" width="60px" height="40px" style="margin-left: 10px;">
+              <img src="/frontend/images/bca.png" alt="" width="60px" height="40px" style="margin-left: 10px;">
               <p style="margin-top: 15px;">BCA Virtual Account</p>
             </label>
           </div>
@@ -293,7 +285,7 @@
           </div>
           <div class="detail-order-middle"> 
             <label class="form-check-label d-flex gap-3 align-items-center" for="exampleRadios3">
-              <img src="img/mandiri.png" alt="" width="60px" height="40px" style="margin-left: 10px;">
+              <img src="/frontend/images/mandiri.png" alt="" width="60px" height="40px" style="margin-left: 10px;">
               <p style="margin-top: 15px;">Mandiri Virtual Account</p>
             </label>
           </div>
@@ -346,7 +338,7 @@
           </div>
           <div class="detail-order-middle"> 
             <label class="form-check-label d-flex gap-3 align-items-center" for="exampleRadios3">
-              <img src="img/bni.png" alt="" width="60px" height="40px" style="margin-left: 10px;">
+              <img src="/frontend/images/bni.png" alt="" width="60px" height="40px" style="margin-left: 10px;">
               <p style="margin-top: 15px;">BNI Virtual Account</p>
             </label>
           </div>
@@ -399,7 +391,7 @@
           </div>
           <div class="detail-order-middle"> 
             <label class="form-check-label d-flex gap-3 align-items-center" for="exampleRadios3">
-              <img src="img/bri.png" alt="" width="60px" height="40px" style="margin-left: 10px;">
+              <img src="/frontend/images/bri.png" alt="" width="60px" height="40px" style="margin-left: 10px;">
               <p style="margin-top: 15px;">BRI Virtual Account</p>
             </label>
           </div>
@@ -439,11 +431,11 @@
           <div class="modal-body">
             <div class="payment-success" > 
               <div class="payment-success-img">
-                <img src="img/succes.png" alt="" width="70px" height="70px">
+                <img src="/frontend/images/succes.png" alt="" width="70px" height="70px">
                 <p style="margin-top: 10px;">Pembayaran berhasil</p>
               </div>
               <div class="payment-success-title">
-                <p>Informasi mengenai tiket dan detail order akan dikirimkan melalui email</p>
+                <p>Informasi mengenai tiket dan detail order dapat dilihat pada menu history</p>
               </div>
                 <div class="payment-success-desc"> 
                   <p>Jika mengalami kesulitan mengenai pesanan Anda, harap hubungi:</p>
@@ -458,9 +450,4 @@
         </div>
       </div>
     </div>
-</body>
-
-<footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"> </script>
-</footer>
-</html>
+@endsection

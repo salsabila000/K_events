@@ -4,15 +4,15 @@
 {{-- untuk memanggil isi dari yeild  --}}
 @section('content')
     
-  <div class="container">
+  <div class="container-regis">
     <div class="back-link">
-        <a href="#" class="back-link"> &lt; Back to Dashboard</a>
+        <a href="{{ route('home')}}" class="back-link"> &lt; Back to Dashboard</a>
         <div class="logo">
             <img src="/frontend/images/image 102.png" width="40px" height="40px">
             <p> K-EVENTS </p>
         </div>
     </div>
-    <div class="title"><b>Sign In</b>
+    <div class="title"><b>Sign up</b>
     </div>
     <div class="direct">Already have account? 
       <p><a href="html_images.asp" style="text-decoration: none; color: #F25D9C;">Sign in</a></p>
