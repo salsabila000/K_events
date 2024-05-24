@@ -11,4 +11,8 @@ class EventController extends Controller
     {
         return view('pages/admin/event');
     }
+    public function transaction(request $request)
+    {
+        return view('pages/admin/transaction');
+    }
 }
