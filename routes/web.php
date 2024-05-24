@@ -22,6 +22,8 @@ Route::get('/', function () {
 route::prefix('admin')
 ->group(function(){
         Route::get('/',[App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
+        Route::get('event-page',[App\Http\Controllers\Admin\EventController::class, 'event'])->name('eventdetail');
+
     });
 
 
