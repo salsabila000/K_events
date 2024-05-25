@@ -335,33 +335,6 @@ margin-left: 20px;
 
 /* css history*/
 
-.bungkusan{
-  margin-top: -30px;
-  margin-left: -15px;
-}
-
-.konten-history{
-  margin-top: -30px;
-}
-.card {
-  margin-top: 50px;
-}
-
-.card {
-    border: none; /* Hilangkan border bawaan card */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Tambahkan box shadow */
-}
-.card-img-top {
-    height: 200px; /* Atur tinggi gambar sesuai kebutuhan */
-    object-fit: cover; /* Pastikan gambar menutupi area dengan baik */
-}
-.content-top p {
-  font-weight: 700;
-}
-.content-sisi-harga p {
-  color: grey;
-}
-
 
 /* Main Ticket Style */
 .ticketContainer{

@@ -13,20 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
  
-
-
-route::prefix('admin')
-->group(function(){
-        Route::get('/',[App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
-    });
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
 Route::prefix('user')->group(function () {
-    Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+    
 
     Route::get('detail', [App\Http\Controllers\HomeController::class, 'eventdetail'])->name('detail_events'); 
 
@@ -48,8 +41,22 @@ Route::prefix('user')->group(function () {
     
     Route::get('konten', [App\Http\Controllers\HomeController::class, 'konten'])->name('event');
 
-
-
-
-
 }); 
+
+route::prefix('admin')
+->middleware(['auth','admin'])
+->group(function(){
+        Route::get('/',[App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
+        Route::get('event-page',[App\Http\Controllers\Admin\EventController::class, 'event'])->name('eventdetail');
+        Route::get('transaction',[App\Http\Controllers\Admin\EventController::class, 'transaction'])->name('transactionadmin');
+        Route::get('transaction',[App\Http\Controllers\Admin\EventController::class, 'transaction'])->name('transactionadmin');
+
+
+    });
+
+
+
+
+Auth::routes(['verify'=>true]);
+
+
